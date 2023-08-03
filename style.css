@@ -1,20 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700;800&display=swap");
+* {
+  
+  font-family: "Raleway", sans-serif;
+
+
+  /* background-position: center; */
+}
+body{
+  background-image: url("https://images.unsplash.com/photo-1690828850582-a9c604c5e9e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   align-items: center;
   text-align: center;
 }
-button{
+button {
   color: white;
   background-color: rgb(13, 108, 191);
-   border: 1 solid none; 
+  border: 1 solid rgb(13, 108, 191);
   border-radius: 50px;
-  width: 200px;
-  height: 100px;
-  font-size: 2em;
-
-  padding: 10px;
-  text-decoration:  none;
-
+  width: 120px;
+  height: 60px;
+  font-size: 1.2em;
+  margin-top: 10px;
+  text-decoration: none;
 }
-label{
+.data {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.name,
+.weight,
+.height {
   font-size: 2em;
+  margin-top:20px;
+  margin-left: 20px;
+}
+.as {
+  font-size: 2em;
+  margin-top: 20px;
+  font-weight: bold;
 }
