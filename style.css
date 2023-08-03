@@ -1,0 +1,20 @@
+h1 {
+  align-items: center;
+  text-align: center;
+}
+button{
+  color: white;
+  background-color: rgb(13, 108, 191);
+   border: 1 solid none; 
+  border-radius: 50px;
+  width: 200px;
+  height: 100px;
+  font-size: 2em;
+
+  padding: 10px;
+  text-decoration:  none;
+
+}
+label{
+  font-size: 2em;
+}
